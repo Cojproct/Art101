@@ -8,7 +8,7 @@
 myTransport = ["bike","skateboard","Ford mustang","rides from friends"]
 
 //create an object for my main ride
-var mymainride = { 
+var myMainride = { 
 make: "Ford", 
 model: "mustang", 
 color: "black", 
@@ -16,7 +16,7 @@ year: "1969",
 age: function () { return 2023 - this.year;}}
 
 //output
-document.writeln("kinds of transport I use: " myTransport, "</br>");
+document.writeln("kinds of transport I use:" myTransport, "</br>");
 document.writeln("My Main Ride: <pre>", 
     JSON.stringify(myMainRide, null, '\t'), "</pre>");
 
