@@ -16,9 +16,9 @@ year: "1969",
 age: function () { return 2023 - this.year;}}
 
 //output
-document.writeln("kinds of transport I use:" myTransport, "</br>");
+document.writeln("kinds of transport I use:"+ myTransport+ "</br>");
 document.writeln("My Main Ride: <pre>", 
-    JSON.stringify(myMainRide, null, '\t'), "</pre>");
+    JSON.stringify(myMainride, null, '\t'), "</pre>");
 
 
 

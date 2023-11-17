@@ -21,8 +21,8 @@ return nameSorted;
 
 
 //output 
-document.writeln("Oh hey I've fixed your name: "+
-sortusername()+ "</br>");
+document.writeln("Oh hey I've fixed your name: ",
+sortUserName(), "</br>");
 
 
 
